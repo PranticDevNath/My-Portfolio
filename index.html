@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="prtfolio_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Welcome To My Portfolio!</h2>
+                <p>This is a showcase of my work. My portfolio is my personal showcase, a collection of my best work. It
+                    highlights my skills and achievements, whether it's graphic design projects, writing samples, or
+                    coding triumphs. It's a visual story of what I can do, tailored to grab attention and convince
+                    potential employers or clients that I'm the perfect fit for the job. It's like a cheat sheet,
+                    letting them see my capabilities without needing an explanation. </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <img src="project1.jpeg" alt="Project 1">
+                <h3>Project 1 : Rat In A Maze BOT</h3>
+                <p>My Arduino maze bot project is a thrilling challenge where I programmed a bot to navigate a maze at
+                    the fastest rate. Using sensors, the bot detects walls and strategically chooses the quickest route.
+                    I love the problem-solving aspect, constantly refining the code to shave off milliseconds and
+                    achieve the optimal run. It's a great blend of creativity and logic, pushing the bot's limits to see
+                    how quickly it can conquer the maze. </p>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpeg" alt="Project 2">
+                <h3>Project 2 : RC Motor Car </h3>
+                <p>I'm building an RC car with Arduino as the brains! It'll be a blast to control the movement and
+                    experiment with programming. This project will level up my Arduino skills and give me a cool
+                    remote-controlled car. Who knows, maybe I'll add features like sensors or a smartphone app later on!
+                </p>
+            </div>
+            <div class="project-card">
+                <img src="project3.png" alt="Project 3">
+                <h3>Project 3 : Live Weather Website </h3>
+                <p>Live weather refers to the current atmospheric conditions like temperature, humidity, wind speed,
+                    precipitation, and atmospheric pressure. This real-time data, collected from weather stations,
+                    satellites, and radar systems, is crucial for activities like agriculture, transportation, and
+                    disaster preparedness. Meteorologists analyze this information to offer accurate forecasts and
+                    updates. Accessible through websites, apps, and dedicated channels, live weather reports aid in
+                    decision-making, allowing people to plan safely for outdoor activities and mitigate risks associated
+                    with adverse weather.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-card">
+                <h3>HTML/CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Microsoft Office</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Micro Controller</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="portfolio-item">
+                    <h3>Live Weather Website</h3>
+                    <p>Developed a live weather website that provides real-time weather information for locations
+                        worldwide. Integrated with a weather API to fetch current weather data and display it in an
+                        intuitive and user-friendly interface. Implemented responsive design for seamless viewing on
+                        various devices.</p>
+                    <a href="https://pranticdevnath.github.io/Live_Weather/" class="portfolio-link">View Website</a>
+                </div>
+                <!-- Add more portfolio items here if needed -->
+            </div>
+        </section>
+
+
+
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am Student of Mechanical Engineering Department of NATIONAL INSTITUTE OF TECHNOLOGY (NIT), Silchar.
+                    I'm
+                    a passionate web developer with expertise in HTML, CSS, and JavaScript. I also know the Arduino
+                    programing language and make some project. I am also expert in Microsoft Office.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Mirsarai Model Govt. High School</h3>
+                    <h5>
+                        <p>Degree: Secondary School Certificate</p>
+                    </h5>
+                    <p>Year of Graduation: 2020</p>
+                </div>
+                <div class="education-item">
+                    <h3>Mahajanhat Fazlur Rahman School & College</h3>
+                    <h5>
+                        <p>Degree: Higher Secondary School Certificate </p>
+                    </h5>
+                    <p>Year of Graduation: 2022</p>
+                </div>
+                <div class="education-item">
+                    <h3>National Institute of Technology, Silchar</h3>
+                    <h5>
+                        <p>Degree: Bachelor of Technology in Mechanical Engineering</p>
+                    </h5>
+                    <p>Year of Graduation: 2027</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <div class="container">
+            <p>Follow me on social media:</p>
+            <div class="footer">
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/Prantic.Dev.Nath?mibextid=ZbWKwL"><img src="OIP.jpeg"
+                                alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/prantic_dev_nath?igsh=NG5pNWxxOW8xcXNw"><img src="opi1.png"
+                                alt="Instragram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/prantic-dev-nath-04145b292"><img src="opi2.webp"
+                                alt="Linkedin"></a></li>
+                    <li><a href="http://www.youtube.com/@PranticsPOV1"><img src="opi3.png" alt="youtube"></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="portfolio_script.js"></script>
+</body>
+
+</html>
